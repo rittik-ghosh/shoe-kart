@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe-kart | Login</title>
+    <link rel="stylesheet" href="/Stylesheets/main.css">
+    <link rel="stylesheet" href="https://maximus-ui.netlify.app/Stylesheets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+</head>
+
+<body>
+    <div class="page-container">
+        <nav class="main-nav flex-spacearound">
+            <div class="nav-category">
+                <h1 class="brand-name">Shoe-Kart</h1>
+                <a class="category-link men-categ-link" href="#">
+                    <h3> MEN </h3>
+                </a>
+                <a class="category-link women-categ-link" href="#">
+                    <h3> WOMEN </h3>
+                </a>
+                <a class="category-link kids-categ-link" href="#">
+                    <h3> KIDS </h3>
+                </a>
+            </div>
+            <form class="search-input">
+                <input class="search-input" type="search" placeholder="Search...">
+            </form>
+            <div class="nav-icons flex-spacearound">
+                <button class="btn"><a class="link-primary-solid" href="#">
+                        <h4>LOGOUT</h4>
+                    </a></button>
+                <div class="user-icon badge text-center">
+                    <i class="fa fa-user-circle"></i>
+                    <h4>Profile</h4>
+                </div>
+                <div class="wishlist-icon badge text-center">
+                    <i class="fa fa-heart"></i>
+                    <span id="wishlist-count">9</span>
+                    <h4>Wishlist</h4>
+                </div>
+                <div class="cart-icon badge text-center">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span id="cart-count">9</span>
+                    <h4>Cart</h4>
+                </div>
+
+            </div>
+
+        </nav>
+        <div class="auth-main-container shadow">
+            <div class="auth-content-container">
+                <div class="auth-header">
+                    <h3>Login</h3>
+                </div>
+                <div class="auth-input">
+                    <div class="input-group margin-bottom">
+                        <label>Email Address *</label>						
+                        <input type="text" placeholder="abc@shoekart.com">
+                    </div>
+                    <div class="input-group margin-bottom">
+                        <label>Password *</label>						
+                        <input type="password" placeholder="**************">
+                    </div>
+                    <div class="pswd-options">
+                        <div class="checkbox-ip">
+                            <input id="remember-me" name="remember" type="checkbox" checked>
+                            <label for="remember-me"> Remember me</label>
+                        </div>
+                            <a href="#" class="auth-link">Forgot your password?</a>       
+                    </div>
+                    <div class="auth-btns">
+                        <button class="btn margin-bottom">
+                            <a href="#" class="auth-link">Login</a>
+                        </button>
+                    </div>
+                    <div class="new-acc-link centered">
+                        <a href="#" class="auth-link padding-between">Create new Account</a> <span>></span>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+</div>
+</body>
+
+</html>

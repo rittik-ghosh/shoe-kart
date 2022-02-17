@@ -1,0 +1,57 @@
+.auth-main-container {
+    min-width: 33rem;
+    margin: auto;
+    position: absolute;
+    left: 43rem;
+    top: 16rem;
+    padding: 2rem;
+    border-radius: 4px;
+}
+
+.auth-header h3 {
+    font-size: 2rem;
+    font-weight: 2000;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--st-primary-color);
+}
+
+.auth-input label{
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 1.2rem;
+    line-height: 24px;
+}
+
+.pswd-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.pswd-options .checkbox-ip{
+    width: auto;
+}
+
+.auth-btns .btn{
+    width: 100%;
+}
+
+.auth-link{
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 1.2rem;
+    line-height: 24px;
+}
+
+.margin-bottom{
+    margin-bottom: 1rem;
+}
+
+.logout-msg{
+    color:var(--success-color);
+    font-weight: 1000;
+    font-size: 1.2rem;
+    line-height: 24px;
+}
