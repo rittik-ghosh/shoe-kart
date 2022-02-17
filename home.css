@@ -108,7 +108,7 @@ padding: 15rem 5rem;
 .footer-container{
     background-color: var(--st-primary-color);
     min-height: 7rem;
-    color:var(--st-white)
+    color:var(--st-white);
 }
 .list-non-bullet li{
     list-style-type: none;
