@@ -1,0 +1,45 @@
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity button {
+    margin: 0 0.5rem;
+}
+
+.display-count {
+    border: 1px solid var(--st-black);
+    border-radius: 5px;
+    width: 20px;
+    text-align: center;
+}
+
+.border-fifty {
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid var(--st-black);
+    text-align: center;
+}
+
+.cart-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+
+}
+
+.checkout-container{
+padding:1rem;
+}
+
+.footer-container-cart {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--st-primary-color);
+    min-height: 7rem;
+    color: var(--st-white);
+}
