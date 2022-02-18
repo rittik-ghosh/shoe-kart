@@ -1,16 +1,13 @@
 .auth-main-container {
-    min-width: 33rem;
-    margin: auto;
-    position: absolute;
-    left: 43rem;
-    top: 16rem;
+    max-width: 33rem;
+    margin: 5rem auto;
     padding: 2rem;
     border-radius: 4px;
 }
 
 .auth-header h3 {
     font-size: 2rem;
-    font-weight: 2000;
+    font-weight: 900;
     text-align: center;
     margin-bottom: 2rem;
     color: var(--st-primary-color);
@@ -18,9 +15,9 @@
 
 .auth-input label{
     font-style: normal;
-    font-weight: 1000;
+    font-weight: 900;
     font-size: 1.2rem;
-    line-height: 24px;
+    line-height: 1.5rem;
 }
 
 .pswd-options{
@@ -40,9 +37,9 @@
 
 .auth-link{
     text-decoration: none;
-    font-weight: 1000;
+    font-weight: 900;
     font-size: 1.2rem;
-    line-height: 24px;
+    line-height: 1.5rem;
 }
 
 .margin-bottom{
@@ -51,7 +48,7 @@
 
 .logout-msg{
     color:var(--success-color);
-    font-weight: 1000;
+    font-weight: 900;
     font-size: 1.2rem;
-    line-height: 24px;
+    line-height: 1.5rem;
 }
