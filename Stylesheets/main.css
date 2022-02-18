@@ -2,3 +2,4 @@
 /* Importing my own CSS component library */
 @import url("https://https://maximus-ui.netlify.app/Stylesheets/style.css");
 @import url("../home.css");
+@import url("../Stylesheets/authentication.css");
