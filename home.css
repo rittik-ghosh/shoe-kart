@@ -1,0 +1,122 @@
+body{
+    background-color: var(--st-white);
+}
+.flex-spacearound{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:1.5rem;
+}
+.bold-subheading{
+    font-weight: 1000;
+    padding:1.5rem 0rem;
+}
+input.search-input {
+    min-width: 19rem;
+    border-radius: 4px;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+  }
+
+.search-input input{
+    min-width: 25rem;
+}
+.nav-category{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap:2rem;
+    color:var(--st-primary-color);
+}
+.nav-category a{
+    text-decoration: none;
+    color: var(--st-black);
+}
+.category-link:hover{
+    color:var(--st-primary-color);
+}
+.user-icon:hover{
+    color:var(--st-primary-color);
+}
+.wishlist-icon:hover{
+    color:var(--st-primary-color);
+}
+.cart-icon:hover{
+    color:var(--st-primary-color);
+}
+#wishlist-count{
+    top: -4px;
+    right: 0px;
+}
+#cart-count{
+    top: -5px;
+    right: -11px;
+}
+.hero-image{
+    background-image: url("/Assets/bd-image-shoeKart.jpg"); 
+    background-color: var(--st-white); 
+    height: 36rem; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.hero-image-content{
+padding: 15rem 5rem;
+}
+
+.big-heading{
+    color: var(--st-white);
+    font-family: "AdineuePRO",Helvetica,Arial,sans-serif;
+    font-size: 5rem;  
+    padding-bottom: 2rem; 
+}
+.btn-big{
+    padding:1rem;
+    color: var(--st-white);
+    background-color: var(--st-primary-color);
+    border-radius: 5px;
+}
+
+.btn-big:hover{
+    background-color: var(--st-primary-hover);
+}
+.wrapper-home-page-content{
+    padding:3rem 5rem 4rem  5rem;
+}
+.category-bg-img{
+    background-image: url("/Assets/kids.jpg");
+    background-color: var(--st-white); 
+    height: 20rem; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    margin: 1rem 0;
+    color: var(--st-primary-hover);
+}
+.category-bg-img h2:hover{
+    background-color: var(--st-white);
+    opacity: 0.5;
+}
+.grid-home-page{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(33rem,1fr));
+    margin: 1rem;
+    gap: 1.5rem;
+    cursor: pointer;
+}
+.footer-container{
+    background-color: var(--st-primary-color);
+    min-height: 7rem;
+    color:var(--st-white);
+}
+.list-non-bullet li{
+    list-style-type: none;
+    font-size: x-large;
+    padding:0.5rem 1rem;
+}
+.list-non-bullet li a{
+    text-decoration: none;
+    color: var(--st-white);
+    padding:1rem
+}
