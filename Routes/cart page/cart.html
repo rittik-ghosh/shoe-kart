@@ -7,9 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoe-kart | Cart</title>
     <link rel="stylesheet" href="/Stylesheets/main.css">
-    <link rel="stylesheet" href="https://maximus-ui.netlify.app/Stylesheets/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 </head>
 
@@ -17,7 +14,7 @@
     <div class="page-container">
         <nav class="main-nav flex-spacearound">
             <div class="nav-category">
-                <h1 class="brand-name">Shoe-Kart</h1>
+                <h1 class="brand-name"><a href="#">Shoe-Kart</a></h1>
                 <a class="category-link men-categ-link" href="#">
                     <h3> MEN </h3>
                 </a>
@@ -32,7 +29,7 @@
                 <input class="search-input" type="search" placeholder="Search...">
             </form>
             <div class="nav-icons flex-spacearound">
-                <button class="btn"><a class="link-primary-solid" href="#">
+                <button class="btn"><a class="link-primary-solid " href="/Routes/Authentication/logout.html">
                         <h4>LOGOUT</h4>
                     </a></button>
                 <div class="user-icon badge text-center">
@@ -40,14 +37,18 @@
                     <h4>Profile</h4>
                 </div>
                 <div class="wishlist-icon badge text-center">
-                    <i class="fa fa-heart"></i>
+                    <a class="link-decoration-none-primary-color" href="/Routes/wishlist page/wishlist.html"><i
+                        class="fa fa-heart"></i>
                     <span id="wishlist-count">5</span>
                     <h4>Wishlist</h4>
+                </a>
                 </div>
                 <div class="cart-icon badge text-center">
-                    <i class="fa fa-shopping-cart"></i>
-                    <span id="cart-count">9</span>
+                    <a class="link-decoration-none-primary-color" href="/Routes/cart page/cart.html"><i
+                        class="fa fa-shopping-cart"></i>
+                    <span id="cart-count">2</span>
                     <h4>Cart</h4>
+                </a>
                 </div>
             </div>
         </nav>
