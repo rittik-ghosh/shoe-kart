@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe-kart | Product</title>
+    <link rel="stylesheet" href="/Stylesheets/main.css">
+</head>
+</head>
+
+<body>
+    <div class="page-container">
+        <nav class="main-nav flex-spacearound">
+            <div class="nav-category">
+                <h1 class="brand-name"><a href="#">Shoe-Kart</a></h1>
+                <a class="category-link men-categ-link" href="#">
+                    <h3> MEN </h3>
+                </a>
+                <a class="category-link women-categ-link" href="#">
+                    <h3> WOMEN </h3>
+                </a>
+                <a class="category-link kids-categ-link" href="#">
+                    <h3> KIDS </h3>
+                </a>
+            </div>
+            <form class="search-input">
+                <input class="search-input" type="search" placeholder="Search...">
+            </form>
+            <div class="nav-icons flex-spacearound">
+                <button class="btn"><a class="link-primary-solid " href="/Routes/Authentication/logout.html">
+                        <h4>LOGOUT</h4>
+                    </a></button>
+                <div class="user-icon badge text-center">
+                    <i class="fa fa-user-circle"></i>
+                    <h4>Profile</h4>
+                </div>
+                <div class="wishlist-icon badge text-center">
+                    <a class="link-decoration-none-primary-color" href="/Routes/wishlist page/wishlist.html"><i
+                        class="fa fa-heart"></i>
+                    <span id="wishlist-count">5</span>
+                    <h4>Wishlist</h4>
+                </a>
+                </div>
+                <div class="cart-icon badge text-center">
+                    <a class="link-decoration-none-primary-color" href="/Routes/cart page/cart.html"><i
+                        class="fa fa-shopping-cart"></i>
+                    <span id="cart-count">2</span>
+                    <h4>Cart</h4>
+                </a>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar ends -->
+    <div class="pdt-page-content"> 
+     <div class="side-bar">
+         <div class="filter flex-spacebetween margin-bottom">
+             <h3>Filters</h3>
+             <a href="#" class="auth-link">Clear</a>
+         </div>
+         <div class="price-filter margin-bottom">
+             <h3 class="little-margin-bottom">Price</h3>
+             <input type="range" min="0" max="100" value="50" step="50"class="slider-input" />
+                    <div class="price-range flex-spacebetween">
+                        <p>1k</p>
+                        <p>5k</p>
+                        <p>10k+</p>
+                    </div>
+        </div>
+        <div class="category-filter margin-bottom">
+            <h3 class="little-margin-bottom">Category</h3>
+            <div class="checkbox-ip">
+                <input id="men-cloathing" name="men" type="checkbox" checked>
+                <label for="men-cloathing"> Men Clothing</label>
+            </div>
+
+            <div class="checkbox-ip">
+                <input id="women-cloathing" name="women" type="checkbox">
+                <label for="women-cloathing">Women Clothing</label>
+            </div>
+
+            <div class="checkbox-ip">
+                <input id="kids-cloathing" name="kids" type="checkbox">
+                <label for="kids-cloathing"> kids Clothing</label>
+            </div>
+              
+        </div>
+
+        <div class="rating-filter ">
+            <h3 class="little-margin-bottom">Ratings</h3>
+            <div class="checkbox-ip">
+                <input id="fourStars" name="rating" type="radio" checked>
+                    <label for="fourStars">4 Stars & above</label>
+            </div>
+
+            <div class="checkbox-ip">
+                <input id="threeStars" name="rating" type="radio">
+                    <label for="threeStars">3 Stars & above</label>
+            </div>
+
+            <div class="checkbox-ip">
+            <input id="twoStar" name="rating" type="radio">
+                <label for="twoStar">2 Stars & above</label>
+             </div>
+
+             <div class="checkbox-ip">
+                <input id="oneStar" name="rating" type="radio">
+                    <label for="oneStar">1 Stars & above</label>
+                 </div>
+        </div>
+
+        <div class="sortby-filter margin-bottom">
+            <h3 class="little-margin-bottom">Sort By</h3>
+            <div class="checkbox-ip">
+                <input id="price-h-l" name="rating" type="radio" checked>
+                    <label for="price-h-l">Price High to Low</label>
+            </div>
+
+            <div class="checkbox-ip">
+                <input id="price-l-h" name="rating" type="radio">
+                    <label for="price-l-h">Price Low to High</label>
+            </div>
+
+        </div>
+    </div> 
+    <!-- end of sidebar -->
+    <div class="product-container">
+        <h3 class="product-status">Showing All Products</h3> <h4 class="product-status">(Showing 20 products)</h4>
+        <div class="card-container">
+        <div class="card shadow">
+            <div class="image-container">
+                <img src="/Assets/shoe3.jpg" alt="adidas shoes">
+                <div class="card-badge">Limited Offer</div>
+                <div class="wishlist-badge"><i class="fa fa-heart"></i></div>
+            </div>
+            <div class="content-container">
+                <div class="heading">
+                    <h2>ADIDAS MAX</h2>
+                    <h4>The limited edition 2022</h4>
+                </div>
+                <div class="reduced-price">
+                    <h3>$40</h3>
+                    <div class="centered small-padding">
+                        <span class="material-icons selected">star</span>
+                        <span class="material-icons selected">star</span>
+                        <span class="material-icons selected">star</span>
+                        <span class="material-icons ">star_outline</span>
+                        <span class="material-icons ">star_outline</span>
+                        <h5 class="small-padding">500</h5>
+                    </div>
+    
+                </div>
+                <div class="org-price">
+                    <h4><strike>$100</strike></h4>
+                    <h4>60% Off</h4>
+                </div>
+                <div class="description">
+                <P> Color : White</P>
+                <P>  Size  : Large</P>
+                </div>
+            </div>
+            <div class="order-buttons">
+                <a href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
+                <a href="#">BUY NOW</a>
+            </div>
+        </div>
+
+        <div class="card shadow">
+            <div class="image-container">
+                <img src="/Assets/shoe3.jpg" alt="adidas shoes">
+                <div class="wishlist-badge"><span class="material-icons">
+                    favorite_border
+                    </span></div>
+            </div>
+            <div class="content-container">
+                <div class="heading">
+                    <h2>ADIDAS MAX</h2>
+                    <h4>The limited edition 2022</h4>
+                </div>
+                <div class="reduced-price">
+                    <h3>$40</h3>
+                    <div class="centered small-padding">
+                        <span class="material-icons selected">star</span>
+                        <span class="material-icons selected">star</span>
+                        <span class="material-icons selected">star</span>
+                        <span class="material-icons ">star_outline</span>
+                        <span class="material-icons ">star_outline</span>
+                        <h5 class="small-padding">500</h5>
+                    </div>
+    
+                </div>
+                <div class="org-price">
+                    <h4><strike>$100</strike></h4>
+                    <h4>60% Off</h4>
+                </div>
+                <div class="description">
+                <P> Color : White</P>
+                <P>  Size  : Large</P>
+                </div>
+            </div>
+            <div class="order-buttons">
+                <a href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
+                <a href="#">BUY NOW</a>
+            </div>
+        </div>
+
+        <div class="card shadow">
+            <div class="image-container">
+                <img src="/Assets/shoe3.jpg" alt="adidas shoes">
+                <div class="wishlist-badge"><span class="material-icons">
+                    favorite_border
+                    </span></div>
+            </div>
+            <div class="content-container">
+                <div class="heading">
+                    <h2>ADIDAS MAX</h2>
+                    <h4>The limited edition 2022</h4>
+                </div>
+                <div class="reduced-price">
+                    <h3>$40</h3>
+                    <div class="centered small-padding">
+                        <span class="material-icons selected">star</span>
+                        <span class="material-icons selected">star</span>
+                        <span class="material-icons selected">star</span>
+                        <span class="material-icons ">star_outline</span>
+                        <span class="material-icons ">star_outline</span>
+                        <h5 class="small-padding">500</h5>
+                    </div>
+    
+                </div>
+                <div class="org-price">
+                    <h4><strike>$100</strike></h4>
+                    <h4>60% Off</h4>
+                </div>
+                <div class="description">
+                <P> Color : White</P>
+                <P>  Size  : Large</P>
+                </div>
+            </div>
+            <div class="order-buttons">
+                <a href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
+                <a href="#">BUY NOW</a>
+            </div>
+        </div>
+
+        <div class="card shadow">
+            <div class="image-container">
+                <img src="/Assets/shoe3.jpg" alt="adidas shoes">
+                <div class="wishlist-badge"><span class="material-icons">
+                    favorite_border
+                    </span></div>
+            </div>
+            <div class="content-container">
+                <div class="heading">
+                    <h2>ADIDAS MAX</h2>
+                    <h4>The limited edition 2022</h4>
+                </div>
+                <div class="reduced-price">
+                    <h3>$40</h3>
+                    <div class="centered small-padding">
+                        <span class="material-icons selected">star</span>
+                        <span class="material-icons selected">star</span>
+                        <span class="material-icons selected">star</span>
+                        <span class="material-icons ">star_outline</span>
+                        <span class="material-icons ">star_outline</span>
+                        <h5 class="small-padding">500</h5>
+                    </div>
+    
+                </div>
+                <div class="org-price">
+                    <h4><strike>$100</strike></h4>
+                    <h4>60% Off</h4>
+                </div>
+                <div class="description">
+                <P> Color : White</P>
+                <P>  Size  : Large</P>
+                </div>
+            </div>
+            <div class="order-buttons">
+                <a href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
+                <a href="#">BUY NOW</a>
+            </div>
+        </div>
+
+        <div class="card shadow">
+            <div class="image-container">
+                <img src="/Assets/shoe3.jpg" alt="adidas shoes">
+                <div class="wishlist-badge"><span class="material-icons">
+                    favorite_border
+                    </span></div>
+            </div>
+            <div class="content-container">
+                <div class="heading">
+                    <h2>ADIDAS MAX</h2>
+                    <h4>The limited edition 2022</h4>
+                </div>
+                <div class="reduced-price">
+                    <h3>$40</h3>
+                    <div class="centered small-padding">
+                        <span class="material-icons selected">star</span>
+                        <span class="material-icons selected">star</span>
+                        <span class="material-icons selected">star</span>
+                        <span class="material-icons ">star_outline</span>
+                        <span class="material-icons ">star_outline</span>
+                        <h5 class="small-padding">500</h5>
+                    </div>
+    
+                </div>
+                <div class="org-price">
+                    <h4><strike>$100</strike></h4>
+                    <h4>60% Off</h4>
+                </div>
+                <div class="description">
+                <P> Color : White</P>
+                <P>  Size  : Large</P>
+                </div>
+            </div>
+            <div class="order-buttons">
+                <a href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
+                <a href="#">BUY NOW</a>
+            </div>
+        </div>
+
+    
+    </div>
+</div>
+</div>
+    
+    <footer class="footer-container centered-column">
+        <div class="footer-header">
+            <h3>Made by Rittik Ghosh</h3>
+        </div>
+        <ul class="list-non-bullet centered">
+            <li><i class="fa fa-github"></i><a class="link" href="https://github.com/rittik-ghosh"
+                    target="_blank">Github</a></li>
+            <li><i class="fa fa-linkedin"></i><a class="link" href="https://www.linkedin.com/in/rittik-ghosh-28630a15a/"
+                    target="_blank">LinkdedIn</a></li>
+        </ul>
+    </footer>
+</div>
+</body>
+
+</html>

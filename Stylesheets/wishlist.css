@@ -1,0 +1,5 @@
+.product-container .order-buttons a{
+    width: 100%;
+    margin: 0.5rem;
+    background-color: var(--st-secondary-disabled);
+}
